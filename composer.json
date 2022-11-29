@@ -1,0 +1,19 @@
+{
+    "name": "david/autores_libros",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Ureña Arroniz",
+            "email": "bluberyasp161@gmail.com"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.20",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
